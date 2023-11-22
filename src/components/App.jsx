@@ -18,7 +18,7 @@ function App() {
   return (
     <div>
       <h1>
-        <span>asian food emojis</span>
+        <span>Asian Food Emojis</span>
       </h1>
 
       <dl className="dictionary">{emojipedia.map(createEntry)}</dl>
